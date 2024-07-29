@@ -1,0 +1,12 @@
+
+
+.App-sidebar {
+  min-height: 100vh;
+  display: flex;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

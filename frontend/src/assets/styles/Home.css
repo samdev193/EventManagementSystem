@@ -1,0 +1,78 @@
+.HomePage {
+
+}
+
+.top-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    height: 5vh;
+    width: 8vw;
+}
+
+.event-menu {
+    display: flex;
+}
+
+.event-menu > * {
+    margin-left: 10px;
+}
+
+.event-menu > *:hover {
+    border-bottom: 3px solid purple;
+}
+
+.eventbtn {
+    width: 2vw;
+    border-radius: 50%;
+    height: 4vh;
+    margin-right: 7px;
+    background: transparent;
+    border-color: blueviolet;
+    color: blueviolet;
+}
+
+#separating {
+    border: 1px solid #f0f0f0;
+    display: block;
+    width: 95%;
+}
+.event {
+    display: flex;
+    width: 10vw;
+    align-items: center;
+}
+
+.event p {
+    font-weight: bold;
+}
+
+.eventCard {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50vh;
+    width: 25vw;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newEvent {
+    color: white;
+    background: dodgerblue;
+    border: 1px solid lightgray;
+    width: 12vw;
+    border-radius: 4%;
+}
+
+#search {
+    margin-right: 40px;
+    background: dodgerblue;
+    border: 1px solid lightgray;
+    border-radius: 4%;
+    color: white;
+}

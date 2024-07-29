@@ -1,0 +1,41 @@
+
+.Sidebar {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 16vw;
+    background-color: #07112c;
+    color: white;
+}
+
+.sub-menu {
+    display:flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.sub-menu p {
+    margin-left: 10px;
+}
+.sub-menu:first-child {
+    margin-top:7vh;
+}
+
+h3 {
+    text-align: center;
+}
+.subheading {
+    margin-left: 10px;
+    font-weight: bold;
+}
+img {
+    width: 2vw;
+    height: 4vh;
+    background-color: white;
+}
+#register:hover {
+    cursor: pointer;
+}
+#register a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
