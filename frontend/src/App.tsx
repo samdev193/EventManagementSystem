@@ -5,6 +5,7 @@ import Sidebar from "./components/common/sidebar"
 import Home from "./pages/Home"
 import Header from "./components/common/Header"
 import Register from "./components/auth/Register";
+import Login from "./components/auth/Login";
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ const App: React.FC = () => {
             <Routes>
                 <Route path={"/"} element={<Home/>}></Route>
                 <Route path={"/Register"} element={<Register />}></Route>
+                <Route path={"/Login"} element={<Login />}></Route>
             </Routes>
             </div>
         </Router>

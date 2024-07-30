@@ -45,6 +45,7 @@ const Sidebar: React.FC = () => {
             </div>
 
             <p id={"register"}> <Link to={"/register"}>Register</Link></p>
+            <p id={"Login"}><Link to={"/login"}>Log In </Link></p>
         </div>
     )
 }

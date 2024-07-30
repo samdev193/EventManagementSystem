@@ -60,7 +60,7 @@ const Register: React.FC = () => {
                 <label htmlFor={"email"}>Email</label> <br/>
                 <input id={"email"} type={"text"} onChange={(e) => {setEmail(e.target.value)}} required/> <br/>
                 <label htmlFor={"password"}>Password</label> <br />
-                <input id={"password"} type={"text"} onChange={(e) => {setPassword(e.target.value)}} required/> <br/> <br/>
+                <input id={"password"} type={"password"} onChange={(e) => {setPassword(e.target.value)}} required/> <br/> <br/>
                 <button type={"submit"}>Submit</button>
             </form>
             {qrCodeData && (
